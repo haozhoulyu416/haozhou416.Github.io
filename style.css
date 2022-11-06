@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+  }
+  
+  .container {
+    width: 85%;
+    max-width: 1170px;
+    margin: 0 auto;
+  }
+  
+  .clearfix {
+    clear: both;
+  }
+  
+  /* header */
+  
+  #header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    background-color: #274358;
+  }
+  
+  #logo {
+    float: left;
+  }
+  
+  .nav {
+    float: right;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  .nav li {
+    display: inline-block;
+  }
+  
+  .nav li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 12px;
+    display: block;
+  }
+  
+  /* banner */
+  
+  .banner-bg {
+    background-image: url("http://picsum.photos/1170/600?image=1072");
+    width: 100%;
+    height: 450px;
+    background-position: center;
+    background-size: cover;
+    margin-top: 45px;
+  }
+  
+  /* content */
+  
+  #content {
+    margin-top: 15px;
+  }
+  
+  .content-box {
+    display: inline-block;
+    width: 30%;
+    margin-left: 15px;
+  }
+  
+  .content-box img {
+    width: 100%;
+  }
