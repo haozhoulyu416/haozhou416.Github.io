@@ -1,1 +1,103 @@
-<!doctypehtml><html lang=en><meta charset=utf8><meta content="IE=edge"http-equiv=X-UA-Compatible><meta content="width=device-width,initial-scale=1"name=viewport><title>TestingPage</title><script>var name="World";console.log("Hello, "+name+"!")</script><style>h2::first-letter{color:#7fff00;font-size:large}#para1{text-align:center;color:red}.center{text-align:center;color:#0ff}h1 em{color:#00f}</style><p id=para1>this is id selector<p class=center>this is class selector<h1 class=center>this is <em>descent selector</em> display</h1><h2 class=center>this is pseudo slector</h2>><p>有序列表:<ol><li>Coffee<li>Tea<li>Milk</ol><p>无序列表:<ul><li>Coffee<li>Tea<li>Milk</ul><select><option value=volvo>Volvo<option value=saab>Saab<option value=opel>Opel<option value=audi>Audi</select> <img src=./cat.png> First name: <input value=Mickey name=FirstName><br><input type=submit value=提交><label></label><table border=1><tr><th>Month<th>Savings<tr><td>January<td>$100<tr><td>February<td>$80</table><script src=./outside.js></script>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TestingPage</title>
+    <script>
+        var name = "World";
+        console.log("Hello, " + name + "!");
+      </script>
+    <style>
+        h2::first-letter {
+            color: chartreuse;
+            font-size: large;
+        }
+
+        #para1 {
+            text-align: center;
+            color: red;
+        }
+
+        .center {
+            text-align: center;
+            color: aqua;
+        }
+
+        h1 em {
+            color: blue
+        }
+
+        ;
+    </style>
+</head>
+
+<body>
+    <!-- css id selector-->
+    <p id="para1"> this is id selector</p>
+    <!-- css class selector-->
+    <p class="center">this is class selector</p>
+    <!-- css descent selector-->
+    <h1 class="center">this is <em>descent selector</em> display</h1>
+    <!-- css pseudo selector-->
+    <h2 class="center">this is pseudo slector</h2>
+
+    <!--li tag-->>
+    <p>有序列表:</p>
+    <ol>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ol>
+
+    <p>无序列表:</p>
+    <ul>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ul>
+
+    <!--Option tag -->
+    <select>
+        <option value="volvo">Volvo</option>
+        <option value="saab">Saab</option>
+        <option value="opel">Opel</option>
+        <option value="audi">Audi</option>
+      </select>
+      <!--image tag-->
+    <img src="     ./cat.png">
+
+    <!--input tag-->
+    First name: <input type="text" name="FirstName" value="Mickey"><br>
+    <input type="submit" value="提交">
+    <label for id="">
+
+
+      
+    </label>
+
+    <!--table tag-->
+    <table border="1">
+        <tr>
+          <th>Month</th>
+          <th>Savings</th>
+        </tr>
+        <tr>
+          <td>January</td>
+          <td>$100</td>
+        </tr>
+        <tr>
+          <td>February</td>
+          <td>$80</td>
+        </tr>
+      </table>
+
+      <script src="./outside.js">
+
+      </script>
+
+</body>
+<!--***********************************************************************-->
+</html>
